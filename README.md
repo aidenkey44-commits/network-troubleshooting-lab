@@ -60,6 +60,7 @@ I first pinged the default giveaway to verify that my Mac could communicate with
 Commands used:
 
 ping -c 4 (IP Address)
+
 ping -c 4 8.8.8.8
 
 Successful responses from both tests showed that my Mac could communicate with the local gateway and reach the internet.
@@ -86,7 +87,7 @@ traceroute google.com
 
 The traceroute displayed responding network hops between my local network and the destination along with round-trip times. I also observed that an asterisk at an individual hop does not necessarily indicate a failed connection because some routers may not respond to traceroute probes while continuing to forward traffic.
 
-## Troubleshooting Scenarios
+## Simulated Troubleshooting Scenarios
 
 ### Scenario 1: Upstream Connectivity Failure
 
