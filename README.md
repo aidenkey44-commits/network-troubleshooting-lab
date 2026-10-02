@@ -162,3 +162,18 @@ The following tests compare DNS resolution using the configured DNS server and G
 The traceroute below displays the network path to an external destination. Some intermediate hops did not respond to every probe, while the destination was still successfully reached.
 
 ![Traceroute Test](traceroute-test.png)
+
+## What I Learned
+
+Through this lab, I developed a better understanding of how devices communicate across local networks and the internet. I learned how default gateways, IPv4 addressing, subnet masks, DHCP, and DNS work together to provide network connectivity.
+
+I also learned how to use command-line tools such as `ping`, `nslookup`, and `traceroute` to isolate connectivity problems rather than immediately attempting random fixes. By testing connectivity at different points in the network, I was able to distinguish between local network issues, upstream connectivity problems, DNS failures, and expected network restrictions.
+
+Most importantly, this lab helped me develop a structured troubleshooting process: identify the problem, gather information, isolate the cause, apply an appropriate solution, and verify that the original issue has been resolved.
+
+## Future Improvements
+
+- Practice troubleshooting additional network configuration issues
+- Explore packet analysis using Wireshark
+- Expand the lab using virtual machines and additional operating systems
+- Document additional troubleshooting scenarios as I gain experience
