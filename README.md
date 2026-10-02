@@ -142,3 +142,23 @@ The traceroute displayed responding network hops between my local network and th
 **Diagnosis:** The network was functioning normally. Website access was being intentionally restricted by organizational policy.
 
 **Resolution:** No technical remediation was required. The user was directed to the appropriate IT team for questions or legitimate access requests.
+
+## Lab Evidence
+
+### Connectivity Testing
+
+The following test verifies connectivity to an external IP address and a domain name.
+
+![Connectivity Test](connectivity-test.png)
+
+### DNS Resolution Testing
+
+The following tests compare DNS resolution using the configured DNS server and Google's public DNS server.
+
+![DNS Test](dns-test.png)
+
+### Network Path Analysis
+
+The traceroute below displays the network path to an external destination. Some intermediate hops did not respond to every probe, while the destination was still successfully reached.
+
+![Traceroute Test](traceroute-test.png)
